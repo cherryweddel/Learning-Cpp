@@ -19,3 +19,13 @@ string Card::toString()
 {
 	return face[fa] + " of " + suit[su];
 }
+
+int Card::getSuit()
+{
+	return su;
+}
+
+int Card::getFace()
+{
+	return fa;
+}

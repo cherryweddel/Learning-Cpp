@@ -6,7 +6,7 @@
 using namespace std;
 
 static const string suit[4] = { "Hearts","Diamonds","Clubs","Spades" };
-static const string face[13] = { "Ace","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Jack","Queen","King" };
+static const string face[13] = { "Three","Four","Five","Six","Seven","Eight","Nine","Ten","Jack","Queen","King","Ace","Two"};
 
 class Card
 {

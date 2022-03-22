@@ -8,7 +8,9 @@ public:
 	void setPlayerCard(Card);
 	void returnCard();
 	bool moreCards();
-	bool oneDuiZi();
+	int countDuiZi(int &,int &);
+	bool tongHua();
+	bool tongShun();
 private:
 	vector<Card> playerCards;
 };

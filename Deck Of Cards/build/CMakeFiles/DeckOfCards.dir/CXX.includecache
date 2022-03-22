@@ -1,0 +1,74 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/Card.h
+string
+-
+
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/DeckOfCards.h
+vector
+-
+Card.h
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/Card.h
+
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/PlayerCard.h
+Card.h
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/Card.h
+vector
+-
+
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/PublicFunction.h
+vector
+-
+iostream
+-
+set
+-
+
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/main.cpp
+Card.h
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/Card.h
+DeckOfCards.h
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/DeckOfCards.h
+PlayerCard.h
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/PlayerCard.h
+iostream
+-
+
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/mainCard.cpp
+Card.h
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/Card.h
+iostream
+-
+
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/mainDeckOfCards.cpp
+DeckOfCards.h
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/DeckOfCards.h
+ctime
+-
+cstdlib
+-
+iostream
+-
+iomanip
+-
+
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/mainPlayerCard.cpp
+PlayerCard.h
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/PlayerCard.h
+Card.h
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/Card.h
+iomanip
+-
+iostream
+-
+algorithm
+-
+PublicFunction.h
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/PublicFunction.h
+

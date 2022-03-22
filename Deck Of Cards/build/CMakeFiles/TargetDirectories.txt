@@ -1,0 +1,3 @@
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/build/CMakeFiles/rebuild_cache.dir
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/build/CMakeFiles/DeckOfCards.dir
+/home/cherry/桌面/Study/Program Lesson/DeckOfCards/build/CMakeFiles/edit_cache.dir
