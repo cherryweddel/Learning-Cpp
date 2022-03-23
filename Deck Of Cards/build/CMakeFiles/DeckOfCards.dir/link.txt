@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/DeckOfCards.dir/main.cpp.o CMakeFiles/DeckOfCards.dir/mainCard.cpp.o CMakeFiles/DeckOfCards.dir/mainDeckOfCards.cpp.o CMakeFiles/DeckOfCards.dir/mainPlayerCard.cpp.o  -o DeckOfCards 

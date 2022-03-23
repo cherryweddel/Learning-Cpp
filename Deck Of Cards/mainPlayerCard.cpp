@@ -1,5 +1,6 @@
 #include "PlayerCard.h"
 #include "Card.h"
+#include "DeckOfCards.h"
 #include <iomanip>
 #include <iostream>
 #include<algorithm>
@@ -42,11 +43,7 @@ int PlayerCard::countDuiZi(int &tongHao3,int &tongHao4)
 
 	sort(faceOfCards.begin(),faceOfCards.end());
 
-	for (int k=0;k<faceOfCards.size();k++)
-	{
-		cout <<faceOfCards[k]<<"  ";
-	}
-	cout << endl;
+	
 	int duiZi=0;
 
 	int tmp;
@@ -56,21 +53,18 @@ int PlayerCard::countDuiZi(int &tongHao3,int &tongHao4)
 		
 		if(faceOfCards[tmp+3]==faceOfCards[tmp]&&faceOfCards[tmp+2]==faceOfCards[tmp])
 		{
-			cout << faceOfCards[tmp+3]<<"  "<<faceOfCards[tmp]<< "  ";
 			tongHao4++;
 			tmp+=4;
 			
 		}
 		else if(faceOfCards[tmp+2]==faceOfCards[tmp]&&faceOfCards[tmp+1]==faceOfCards[tmp])
 		{
-			cout <<faceOfCards[tmp+2]<<"  "<<faceOfCards[tmp]<<"  ";
 			tongHao3++;
 			tmp+=3;
 			continue;
 		}
 		else if(faceOfCards[tmp+1]==faceOfCards[tmp])
 		{
-			cout << faceOfCards[tmp+1]<<"  "<<faceOfCards[tmp]<<"  ";
 			duiZi++;
 			tmp+=2;
 			continue;
@@ -131,4 +125,31 @@ bool PlayerCard::tongShun()
 	}
 
 	return false;
+}
+
+int PlayerCard::gradeCards()
+{
+	int score=0;
+
+	int tongHao3=0;int tongHao4=0;
+	int dz=countDuiZi(tongHao3,tongHao4);
+	if(dz==1)  score++;
+	if(dz==2)  score+=3;
+
+	if(tongHao3>0)  score+=5;
+	if(tongHao4>0)  score+=7;
+
+	bool th=tongHua();
+	if(th==1)   score+=7;
+	
+	bool ts=tongShun();
+	if(ts==1)	score+=10;
+
+	return score;
+}
+
+void PlayerCard::changeCard(DeckOfCards &doc,int num)
+{
+	Card c=doc.dealCard();
+	playerCards[num-1]=c;
 }
