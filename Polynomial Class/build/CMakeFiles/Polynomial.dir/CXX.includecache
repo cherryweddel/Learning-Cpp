@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cherry/桌面/Study/Program Lesson/Polynomial Class/Polynomial.h
+iostream
+-
+vector
+-
+
+/home/cherry/桌面/Study/Program Lesson/Polynomial Class/main.cpp
+iostream
+-
+Polynomial.h
+/home/cherry/桌面/Study/Program Lesson/Polynomial Class/Polynomial.h
+
+/home/cherry/桌面/Study/Program Lesson/Polynomial Class/mainPolynomial.cpp
+Polynomial.h
+/home/cherry/桌面/Study/Program Lesson/Polynomial Class/Polynomial.h
+iostream
+-
+vector
+-
+algorithm
+-
+

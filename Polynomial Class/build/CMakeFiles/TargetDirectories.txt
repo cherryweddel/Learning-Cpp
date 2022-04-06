@@ -1,0 +1,3 @@
+/home/cherry/桌面/Study/Program Lesson/Polynomial Class/build/CMakeFiles/rebuild_cache.dir
+/home/cherry/桌面/Study/Program Lesson/Polynomial Class/build/CMakeFiles/Polynomial.dir
+/home/cherry/桌面/Study/Program Lesson/Polynomial Class/build/CMakeFiles/edit_cache.dir
