@@ -1,0 +1,3 @@
+/home/cherry/桌面/program lesson/animal music concert/build/CMakeFiles/rebuild_cache.dir
+/home/cherry/桌面/program lesson/animal music concert/build/CMakeFiles/AnimalConcert.dir
+/home/cherry/桌面/program lesson/animal music concert/build/CMakeFiles/edit_cache.dir

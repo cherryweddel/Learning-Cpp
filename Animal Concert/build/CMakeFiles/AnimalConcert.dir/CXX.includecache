@@ -1,0 +1,60 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cherry/桌面/program lesson/animal music concert/Animial.cpp
+Animial.h
+/home/cherry/桌面/program lesson/animal music concert/Animial.h
+iostream
+-
+
+/home/cherry/桌面/program lesson/animal music concert/Animial.h
+string
+-
+
+/home/cherry/桌面/program lesson/animal music concert/Cat.cpp
+Cat.h
+/home/cherry/桌面/program lesson/animal music concert/Cat.h
+
+/home/cherry/桌面/program lesson/animal music concert/Cat.h
+iostream
+-
+string
+-
+Animial.h
+/home/cherry/桌面/program lesson/animal music concert/Animial.h
+
+/home/cherry/桌面/program lesson/animal music concert/Dog.cpp
+Dog.h
+/home/cherry/桌面/program lesson/animal music concert/Dog.h
+string
+-
+iostream
+-
+
+/home/cherry/桌面/program lesson/animal music concert/Dog.h
+iostream
+-
+string
+-
+Animial.h
+/home/cherry/桌面/program lesson/animal music concert/Animial.h
+
+/home/cherry/桌面/program lesson/animal music concert/源.cpp
+iostream
+-
+string
+-
+vector
+-
+Animial.h
+/home/cherry/桌面/program lesson/animal music concert/Animial.h
+Cat.h
+/home/cherry/桌面/program lesson/animal music concert/Cat.h
+Dog.h
+/home/cherry/桌面/program lesson/animal music concert/Dog.h
+
